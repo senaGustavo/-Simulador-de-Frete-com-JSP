@@ -7,18 +7,19 @@
     <title>Resultado do Frete</title>
 </head>
 <body>
+	<div class="container resultado">
+	
+    	<h1>Resultado do Frete</h1>
 
-    <h1>Resultado do Frete</h1>
+    	<p><strong>Peso da encomenda:</strong> ${peso} kg</p>
 
-    <p><strong>Peso da encomenda:</strong> ${peso} kg</p>
+    	<p><strong>Distância da entrega:</strong> ${distancia} km</p>
 
-    <p><strong>Distância da entrega:</strong> ${distancia} km</p>
+    	<p><strong>Modalidade:</strong> ${modalidade}</p>
 
-    <p><strong>Modalidade:</strong> ${modalidade}</p>
+    	<p><strong>Valor final do frete:</strong> R$ ${valorFinal}</p>
 
-    <p><strong>Valor final do frete:</strong> R$ ${valorFinal}</p>
-
-    <a href="index.jsp">Voltar</a>
-
+    	<a href="index.jsp">Voltar</a>
+	</div>
 </body>
 </html>

@@ -6,35 +6,36 @@
     <title>Simulador de Frete</title>
 </head>
 <body>
+	<div class="container">
 
-    <h1>Simulador de Frete</h1>
+    	<h1>Simulador de Frete</h1>
 
-    <form action="FreteServlet" method="POST">
+    	<form action="FreteServlet" method="POST">
 
-        <label for="peso">Peso da encomenda (kg):</label>
-        <input type="number" id="peso" name="peso"
-               step="0.01" min="0.01" required>
+        	<label for="peso">Peso da encomenda (kg):</label>
+        	<input type="number" id="peso" name="peso"
+               		step="0.01" min="0.01" required>
 
-        <br><br>
+        	<br><br>
 
-        <label for="distancia">Distância da entrega (km):</label>
-        <input type="number" id="distancia" name="distancia"
-               step="0.1" min="0.1" required>
+        	<label for="distancia">Distância da entrega (km):</label>
+        	<input type="number" id="distancia" name="distancia"
+               		step="0.1" min="0.1" required>
 
-        <br><br>
+        	<br><br>
 
-        <label for="modalidade">Modalidade:</label>
-        <select id="modalidade" name="modalidade" required>
-            <option value="">Selecione</option>
-            <option value="Normal">Normal</option>
-            <option value="Expressa">Expressa</option>
-        </select>
+        	<label for="modalidade">Modalidade:</label>
+        	<select id="modalidade" name="modalidade" required>
+            	<option value="">Selecione</option>
+            	<option value="Normal">Normal</option>
+            	<option value="Expressa">Expressa</option>
+        	</select>
 
-        <br><br>
+        	<br><br>
 
-        <button type="submit">Calcular Frete</button>
+        	<button type="submit">Calcular Frete</button>
 
-    </form>
-
+    	</form>
+	</div>
 </body>
 </html>
