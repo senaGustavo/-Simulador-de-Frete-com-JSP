@@ -110,7 +110,6 @@ Resultado apresentado ao usuário
     │
     ├── WEB-INF
     │
-    │
     └── View
         ├── index.jsp
         ├── resultado.jsp
