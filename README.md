@@ -109,7 +109,7 @@ Resultado apresentado ao usuário
     ├── META-INF
     │
     ├── WEB-INF
-    │   └── web.xml
+    │
     │
     └── View
         ├── index.jsp
