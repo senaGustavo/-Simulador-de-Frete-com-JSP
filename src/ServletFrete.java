@@ -30,7 +30,7 @@ public class ServletFrete extends HttpServlet {
         request.setAttribute("valorFinal", String.format("%.2f", valorFinal));
 
         // 4. Encaminha para a página de resultado (sem gerar HTML aqui)
-        RequestDispatcher dispatcher = request.getRequestDispatcher("View/resultado.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/View/resultado.jsp");
         dispatcher.forward(request, response);
     }
 }

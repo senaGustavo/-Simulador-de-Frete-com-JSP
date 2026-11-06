@@ -10,7 +10,7 @@
 
     	<h1>Simulador de Frete</h1>
 
-    	<form action="FreteServlet" method="POST">
+    	<form action="${pageContext.request.contextPath}/FreteServlet" method="POST">
 
         	<label for="peso">Peso da encomenda (kg):</label>
         	<input type="number" id="peso" name="peso"

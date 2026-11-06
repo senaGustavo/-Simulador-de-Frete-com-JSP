@@ -3,7 +3,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/View/style.css">
     <title>Resultado do Frete</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
 
     	<p><strong>Valor final do frete:</strong> R$ ${valorFinal}</p>
 
-    	<a href="index.jsp">Voltar</a>
+    	<a href="${pageContext.request.contextPath}/View/index.jsp">Voltar</a>	
 	</div>
 </body>
 </html>
